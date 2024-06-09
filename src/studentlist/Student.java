@@ -10,10 +10,8 @@ public class Student {
     private String studentID;
     private String address;
 
-    public Student(String name, String studentID, String address) {
+    public Student(String name) {
         this.name = name;
-        this.studentID = studentID;
-        this.address = address;
     }
 
     public String getStudentID() {
